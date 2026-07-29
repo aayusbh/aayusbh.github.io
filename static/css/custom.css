@@ -1,0 +1,18 @@
+/* CSS for overriding the default avatar size of the theme  */
+
+.author-avatar {
+        /* Use !important to smash through the theme's default CSS */
+        width: 120px !important; 
+        height: 120px !important;
+        
+        /* Ensure it stays a perfect circle even if the dimensions get weird */
+        object-fit: cover !important;
+        border-radius: 50% !important;
+
+        /* Optional: Your border and shadow from before */
+        border: 3px solid #7c7070; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+        /* filter image appearance */
+        /* filter:   greyscale(50%); */
+    }

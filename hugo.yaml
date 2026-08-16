@@ -1,0 +1,67 @@
+baseURL: "https://aayusbh.github.io/"
+title: "Aayush Bhatta"
+theme: "hugo-blog-awesome"
+
+defaultContentLanguage: en
+languageCode: en-us
+
+enableEmoji: true
+
+# -----------------------------------------------------------
+# GLOBAL MARKDOWN & URL SETTINGS (FUTURE-PROOFED)
+# -----------------------------------------------------------
+permalinks:
+  blog: "/blog/:slug/"
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      math: true # Crucial: Stops Goldmark from breaking your LaTeX math
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+    ordered: false
+
+# -----------------------------------------------------------
+# LANGUAGE & SITE CONTENT SETTINGS
+# -----------------------------------------------------------
+languages:
+  en:
+    contentDir: content/en
+    languageCode: en-us
+    title: "Aayush Bhatta"
+    
+    menu:
+      main:
+        - name: Home
+          pageRef: /
+          weight: 10
+        - name: Blog
+          pageRef: /blog/
+          weight: 20
+        - name: Projects
+          pageRef: /projects/
+          weight: 30
+        - name: Publications
+          pageRef: /publications/
+          weight: 40
+        - name: CV
+          url: /cv.pdf
+          weight: 50
+
+    params:
+      sitename: "Aayush Bhatta"
+      defaultColor: auto
+      description: "Mechanical Engineer | Researcher | Simulation"
+      
+      mainSections:
+        - blog
+
+      socialIcons:
+        - name: github
+          url: "https://github.com/aayusbh"
+

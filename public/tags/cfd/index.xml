@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CFD on Aayush Bhatta</title>
+    <link>http://localhost:1313/tags/cfd/</link>
+    <description>Recent content in CFD on Aayush Bhatta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jul 2026 18:58:27 +0545</lastBuildDate><atom:link href="http://localhost:1313/tags/cfd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Openfoam Setup Windows Wsl Vscode</title>
+      <link>http://localhost:1313/blog/openfoam-setup-windows-wsl-vscode/</link>
+      <pubDate>Thu, 09 Jul 2026 18:58:27 +0545</pubDate>
+      
+      <guid>http://localhost:1313/blog/openfoam-setup-windows-wsl-vscode/</guid>
+      
+      <description>&lt;p&gt;Hi there !&lt;/p&gt;
+&lt;p&gt;Today we will be laying out the steps for&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

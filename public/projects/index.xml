@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Aayush Bhatta</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Aayush Bhatta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Awesome Project</title>
+      <link>http://localhost:1313/projects/dummy-project/</link>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/dummy-project/</guid>
+      
+      <description>&lt;h1 id=&#34;my-awesome-project&#34;&gt;My Awesome Project&lt;/h1&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Brief description of your project.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Feature 1&lt;/li&gt;
+&lt;li&gt;Feature 2&lt;/li&gt;
+&lt;li&gt;Feature 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/your-username/project-repo&#34;&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://demo.example.com&#34;&gt;Live Demo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

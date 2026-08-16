@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on Aayush Bhatta</title>
+    <link>http://localhost:1313/categories/development/</link>
+    <description>Recent content in Development on Aayush Bhatta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Blog Post</title>
+      <link>http://localhost:1313/blog/my-first-blog-post/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/my-first-blog-post/</guid>
+      
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;This is my first blog post on my new portfolio.&lt;/p&gt;
+&lt;h2 id=&#34;why-hugo&#34;&gt;Why Hugo?&lt;/h2&gt;
+&lt;p&gt;Hugo is fast, flexible, and requires no external dependencies.&lt;/p&gt;
+&lt;h2 id=&#34;content&#34;&gt;Content&lt;/h2&gt;
+&lt;p&gt;Here is an image of lost nemo:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/my-first-blog-post/image.jpg&#34; alt=&#34;Finding Neemooo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;More ramblings :
+Here is a quick test to ensure our markdown math configuration is working for future fluid dynamics posts:&lt;/p&gt;
+&lt;p&gt;$$ \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0 $$&lt;/p&gt;
+&lt;p&gt;Check out my &lt;a href=&#34;http://localhost:1313/blog/&#34;&gt;Blog&lt;/a&gt; for more detailed articles.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

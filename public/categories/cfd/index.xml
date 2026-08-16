@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CFD on Aayush Bhatta</title>
+    <link>http://localhost:1313/categories/cfd/</link>
+    <description>Recent content in CFD on Aayush Bhatta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jul 2026 18:58:27 +0545</lastBuildDate><atom:link href="http://localhost:1313/categories/cfd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenFOAM Setup in Windows using WSL</title>
+      <link>http://localhost:1313/blog/openfoam-setup-in-windows-using-wsl/</link>
+      <pubDate>Thu, 09 Jul 2026 18:58:27 +0545</pubDate>
+      
+      <guid>http://localhost:1313/blog/openfoam-setup-in-windows-using-wsl/</guid>
+      
+      <description>&lt;p&gt;Hi there !&lt;/p&gt;
+&lt;p&gt;Today we will be laying out the steps for setting up openFOAM environment in Windows sytem using the power of WSL.&lt;/p&gt;
+&lt;p&gt;To install OpenFOAM 9 (.org) and OpenFOAM v2412 (.com) on Windows using the Windows Subsystem for Linux (WSL), follow these step-by-step instructions.&lt;/p&gt;
+&lt;h1 id=&#34;phase-1-prepare-windows-and-install-wsl&#34;&gt;Phase 1: Prepare Windows and Install WSL&lt;/h1&gt;
+&lt;p&gt;Before installing OpenFOAM, you must enable the necessary Windows features and install a Linux distribution.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Enable Windows Features&lt;/strong&gt;: Open &amp;ldquo;Turn Windows features on or off&amp;rdquo; in your Windows search bar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Select Required Components&lt;/strong&gt;: Ensure that &amp;ldquo;Virtual Machine Platform&amp;rdquo; and &amp;ldquo;Windows Subsystem for Linux&amp;rdquo; are both checked.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Restart Your System&lt;/strong&gt;: Click OK and restart
+your computer when prompted.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Install Ubuntu via PowerShell&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Open Windows PowerShell as an Administrator.&lt;/li&gt;
+&lt;li&gt;Run the command: wsl &amp;ndash;install to begin the installation of Ubuntu (typically version 22.04).&lt;/li&gt;
+&lt;li&gt;Restart again if prompted by the terminal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Set Up Ubuntu&lt;/strong&gt;: Launch the Ubuntu app. You will be asked to create a username and password. Choose a simple password you will remember, as it will not be visible when you type it into the terminal.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;phase-2-install-openfoam-9-foundation-version&#34;&gt;Phase 2: Install OpenFOAM 9 (Foundation Version)&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Open your Ubuntu terminal and execute the following commands to install the Foundation version of OpenFOAM.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add GPG Key&lt;/strong&gt;: Add the public key for the repository to enable package verification: &lt;code&gt;sudo sh -c &amp;quot;wget -O - https://dl.openfoam.org/gpg.key &amp;gt; /etc/apt/trusted.gpg.d/openfoam.asc&amp;quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add the Repository&lt;/strong&gt;: Add the OpenFOAM software repository: &lt;code&gt;sudo add-apt-repository http://dl.openfoam.org/ubuntu&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Update Package List&lt;/strong&gt;: Update your system&amp;rsquo;s package list to include the new repository: sudo apt-get update.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Install OpenFOAM 9&lt;/strong&gt;: Run the installation command: sudo apt-get -y install openfoam9.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: If you encounter dependency errors regarding &lt;code&gt;csh&lt;/code&gt;, enable the universe repository first: &lt;code&gt;sudo apt-add-repository universe &lt;/code&gt; followed by &lt;code&gt;sudo apt-get update&lt;/code&gt;.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

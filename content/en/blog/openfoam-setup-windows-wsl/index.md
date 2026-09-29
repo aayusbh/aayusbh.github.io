@@ -1,7 +1,7 @@
 ---
 title: "OpenFOAM Setup in Windows using WSL"
 date: 2026-07-09T18:58:27+05:45
-draft: true
+draft: false
 description: ""
 tags: [openFOAM, wsl, linux]
 categories: [CFD, software]

@@ -1,7 +1,7 @@
 ---
 title: "My First Blog Post"
 date: 2025-06-27
-draft: false
+draft: true
 type: blog
 categories: ["Development"]
 tags: ["hugo", "portfolio"]

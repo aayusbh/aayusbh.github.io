@@ -1,4 +1,3 @@
-Index · MD
 ---
 title: "Publications"
 description: "My academic publications, papers, and journals."
